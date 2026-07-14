@@ -1,0 +1,13 @@
+{
+	"admin/status/mm_dualsim": {
+		"title": "Modem status",
+		"order": 10,
+		"action": {
+			"type": "view",
+			"path": "mm_dualsim/status"
+		},
+		"depends": {
+			"acl": [ "luci-proto-mm_dualsim" ]
+		}
+	}
+}

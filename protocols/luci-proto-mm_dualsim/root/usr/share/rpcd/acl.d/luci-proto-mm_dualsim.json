@@ -1,0 +1,29 @@
+{
+	"luci-proto-mm_dualsim": {
+		"description": "Grant access to mm_dualsim",
+		"read": {
+			"cgi-io": [ "exec" ],
+			"file": {
+				"/usr/bin/mmcli -L -J": [ "exec" ],
+				"/usr/bin/mmcli -m [0-9]* -J": [ "exec" ],
+				"/usr/bin/mmcli -i [0-9]* -J": [ "exec" ],
+				"/usr/bin/mmcli -m [0-9]* --location-get -J": [ "exec" ]
+			}
+		}
+	},
+	"luci-access": {
+		"description": "Grant access to basic LuCI procedures",
+		"read": {
+			"ubus": {
+				"modem": [ "*" ]
+			},
+			"uci": [ "modem" ],
+			"file": {
+				"/etc/init.d/modem restart": ["exec"]
+			}
+		},
+		"write": {
+			"uci": [ "modem" ]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+		"luci-access": {
+		"description": "Grant access to basic LuCI procedures",
+			"read": {
+				"ubus": {
+					"smscommander": [ "*" ]
+				},
+				"uci": [ "smscommander" ]
+			},
+			"write": {
+				"uci": [ "ntpcmp" ]
+			}
+		}
+}
