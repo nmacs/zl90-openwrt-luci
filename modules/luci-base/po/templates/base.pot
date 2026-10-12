@@ -565,6 +565,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:95
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:65
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:57
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:65
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:91
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:77
@@ -681,6 +682,10 @@ msgstr ""
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:99
 msgid "Access Technologies"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:23
+msgid "Access technologies"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:390
@@ -800,7 +805,6 @@ msgid "Add instance"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:171
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:297
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:171
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:177
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:274
@@ -827,10 +831,6 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:451
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1265
 msgid "Add new interface..."
-msgstr ""
-
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:304
-msgid "Add new repository public key by pasting its content, a file, or a URL."
 msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:188
@@ -1086,6 +1086,7 @@ msgstr ""
 msgid "Allowed IPs"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:80
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:88
 msgid "Allowed network technology"
 msgstr ""
@@ -1129,10 +1130,6 @@ msgstr ""
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:119
 msgid "Amount of seconds to wait for the modem to become ready"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/form.js:619
-msgid "An error occurred while saving the form:"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:139
@@ -1221,7 +1218,6 @@ msgid "Apply request failed with status <code>%h</code>"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2132
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4914
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5035
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5171
 msgid "Apply unchecked"
@@ -1308,6 +1304,7 @@ msgid "Authentication"
 msgstr ""
 
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:76
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:71
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:79
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:89
 msgid "Authentication Type"
@@ -1318,6 +1315,7 @@ msgid "Authoritative"
 msgstr ""
 
 #: modules/luci-base/ucode/template/sysauth.ut:17
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/sysauth.ut:32
 #: themes/luci-theme-bootstrap/htdocs/luci-static/resources/view/bootstrap/sysauth.js:11
 msgid "Authorization Required"
 msgstr ""
@@ -1829,10 +1827,6 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4894
-msgid "Changes"
-msgstr ""
-
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5158
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
@@ -1940,9 +1934,10 @@ msgstr ""
 msgid "Clone"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4911
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
+#: themes/luci-theme-aurora/.dev/src/resource/menu-aurora.js:56
+#: themes/luci-theme-aurora/htdocs/luci-static/resources/menu-aurora.js:1
 msgid "Close"
 msgstr ""
 
@@ -1963,6 +1958,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:435
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:356
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:359
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:281
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:67
 msgid "Collecting data..."
 msgstr ""
@@ -2057,8 +2053,8 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:794
 msgid ""
-"Configures the operation mode of the <abbr title=\"Router "
-"Advertisement\">RA</abbr> service on this interface."
+"Configures the operation mode of the <abbr title=\"Router Advertisement"
+"\">RA</abbr> service on this interface."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:959
@@ -2087,7 +2083,12 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:47
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:236
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:42
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:42
 msgid "Connected"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:48
+msgid "Connecting"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:9
@@ -2095,6 +2096,7 @@ msgstr ""
 msgid "Connection attempt failed"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:9
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:8
 msgid "Connection attempt failed."
 msgstr ""
@@ -2253,8 +2255,8 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:59
 msgid ""
-"Customizes the behaviour of the device <abbr title=\"Light Emitting "
-"Diode\">LED</abbr>s if possible."
+"Customizes the behaviour of the device <abbr title=\"Light Emitting Diode"
+"\">LED</abbr>s if possible."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1206
@@ -2420,6 +2422,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:52
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:186
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:199
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:151
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:159
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:349
 msgid "Debug"
@@ -2493,11 +2496,9 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3085
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3089
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3971
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3298
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:259
 msgid "Delete"
 msgstr ""
 
@@ -2527,10 +2528,6 @@ msgstr ""
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:505
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:53
 msgid "Description"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3290
-msgid "Deselect"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:237
@@ -2590,6 +2587,7 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:391
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv_vlan.js:48
 #: protocols/luci-proto-external/htdocs/luci-static/resources/protocol/external.js:29
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:243
 msgid "Device"
 msgstr ""
 
@@ -2614,6 +2612,7 @@ msgstr ""
 msgid "Device name"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:11
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:10
 msgid "Device not managed by ModemManager."
 msgstr ""
@@ -2655,8 +2654,8 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:875
 msgid ""
 "Dictates how long a node assumes a neighbor is reachable after a "
-"reachability confirmation; published in <abbr title=\"Router "
-"Advertisement\">RA</abbr> messages."
+"reachability confirmation; published in <abbr title=\"Router Advertisement"
+"\">RA</abbr> messages."
 msgstr ""
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:140
@@ -2727,6 +2726,7 @@ msgstr ""
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:121
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:108
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:117
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:44
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:114
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:52
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:97
@@ -2767,6 +2767,7 @@ msgstr ""
 msgid "Disconnection attempt failed"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:14
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:13
 msgid "Disconnection attempt failed."
 msgstr ""
@@ -2775,7 +2776,6 @@ msgstr ""
 msgid "Disk space"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:622
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3386
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3640
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3654
@@ -2816,9 +2816,9 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:348
 msgid ""
-"Dnsmasq is a lightweight <abbr title=\"Dynamic Host Configuration "
-"Protocol\">DHCP</abbr> server and <abbr title=\"Domain Name System\">DNS</"
-"abbr> forwarder."
+"Dnsmasq is a lightweight <abbr title=\"Dynamic Host Configuration Protocol"
+"\">DHCP</abbr> server and <abbr title=\"Domain Name System\">DNS</abbr> "
+"forwarder."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:732
@@ -2910,10 +2910,6 @@ msgstr ""
 msgid "Down"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3294
-msgid "Download"
-msgstr ""
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
 msgid "Download backup"
 msgstr ""
@@ -3001,6 +2997,10 @@ msgstr ""
 #: modules/luci-compat/luasrc/model/network/proto_4x6.lua:14
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:11
 msgid "Dual-Stack Lite (RFC6333)"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:22
+msgid "Dualsim Modemmanager"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:438
@@ -3197,6 +3197,7 @@ msgstr ""
 msgid "Enable DNS lookups"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:145
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:153
 msgid "Enable Debugmode"
 msgstr ""
@@ -3273,9 +3274,9 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/uhttpd.js:14
 msgid ""
-"Enable automatic redirection of <abbr title=\"Hypertext Transfer "
-"Protocol\">HTTP</abbr> requests to <abbr title=\"Hypertext Transfer Protocol "
-"Secure\">HTTPS</abbr> port."
+"Enable automatic redirection of <abbr title=\"Hypertext Transfer Protocol"
+"\">HTTP</abbr> requests to <abbr title=\"Hypertext Transfer Protocol Secure"
+"\">HTTPS</abbr> port."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1103
@@ -3377,6 +3378,7 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:65
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:109
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:118
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:46
 msgid "Enabled"
 msgstr ""
 
@@ -3493,6 +3495,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:25
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:48
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:190
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:148
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:156
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:346
 msgid "Error"
@@ -3692,6 +3695,10 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:28
 msgid "FTP"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:50
+msgid "Failed"
 msgstr ""
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:91
@@ -4006,10 +4013,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1044
 msgid ""
-"Forward <abbr title=\"Neighbour Discovery Protocol\">NDP</abbr> <abbr "
-"title=\"Neighbour Solicitation, Type 135\">NS</abbr> and <abbr "
-"title=\"Neighbour Advertisement, Type 136\">NA</abbr> messages between the "
-"designated master interface and downstream interfaces."
+"Forward <abbr title=\"Neighbour Discovery Protocol\">NDP</abbr> <abbr title="
+"\"Neighbour Solicitation, Type 135\">NS</abbr> and <abbr title=\"Neighbour "
+"Advertisement, Type 136\">NA</abbr> messages between the designated master "
+"interface and downstream interfaces."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:801
@@ -4120,6 +4127,10 @@ msgstr ""
 msgid "GRETAP tunnel over IPv6"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:38
+msgid "GSM-UMTS"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:81
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:39
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:198
@@ -4139,12 +4150,17 @@ msgstr ""
 msgid "Gateway address is invalid"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:143
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:151
 msgid "Gateway metric"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:388
 msgid "General"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:292
+msgid "General Info"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:464
@@ -4215,6 +4231,7 @@ msgstr ""
 msgid "Global network options"
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:358
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:71
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:91
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:66
@@ -4222,6 +4239,7 @@ msgstr ""
 msgid "Go to firmware upgrade..."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:348
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:61
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:81
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:56
@@ -4277,6 +4295,7 @@ msgid "Grant access to Storage and Mount status display"
 msgstr ""
 
 #: modules/luci-base/root/usr/share/rpcd/acl.d/luci-base.json:12
+#: protocols/luci-proto-mm_dualsim/root/usr/share/rpcd/acl.d/luci-proto-mm_dualsim.json:15
 msgid "Grant access to basic LuCI procedures"
 msgstr ""
 
@@ -4294,6 +4313,10 @@ msgstr ""
 
 #: modules/luci-mod-status/root/usr/share/rpcd/acl.d/luci-mod-status-index.json:3
 msgid "Grant access to main status display"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/root/usr/share/rpcd/acl.d/luci-proto-mm_dualsim.json:3
+msgid "Grant access to mm_dualsim"
 msgstr ""
 
 #: protocols/luci-proto-modemmanager/root/usr/share/rpcd/acl.d/luci-proto-modemmanager.json:3
@@ -4425,6 +4448,10 @@ msgstr ""
 msgid "High"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:52
+msgid "Home network"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1173
 msgid "Honor gratuitous ARP"
 msgstr ""
@@ -4503,9 +4530,33 @@ msgstr ""
 msgid "Hybrid"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:201
+msgid "ICMP (ping) monitoring"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:49
 msgctxt "nft icmp code"
 msgid "ICMP code"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:204
+msgid "ICMP hosts"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:209
+msgid "ICMP interval, min"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:219
+msgid "ICMP packet size, bytes"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:224
+msgid "ICMP packets per request"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:214
+msgid "ICMP timeout, s"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:50
@@ -4536,6 +4587,7 @@ msgstr ""
 msgid "IKE DH Group"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:27
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:86
 msgid "IMEI"
 msgstr ""
@@ -4557,6 +4609,7 @@ msgstr ""
 msgid "IP Sets"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:130
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:138
 msgid "IP Type"
 msgstr ""
@@ -4680,6 +4733,8 @@ msgstr ""
 msgid "IPv4 network in address/netmask notation"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:132
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:197
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:140
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:205
 msgid "IPv4 only"
@@ -4720,6 +4775,8 @@ msgstr ""
 msgid "IPv4/IPv6"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:131
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:196
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:139
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:204
 msgid "IPv4/IPv6 (both - defaults to IPv4)"
@@ -4813,6 +4870,8 @@ msgstr ""
 msgid "IPv6 network in address/netmask notation"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:133
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:198
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:141
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:206
 msgid "IPv6 only"
@@ -4882,6 +4941,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1873
 msgid "Identity"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:56
+msgid "Idle"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1328
@@ -4967,10 +5030,10 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:338
 msgid ""
 "If your physical memory is insufficient unused data can be temporarily "
-"swapped to a swap-device resulting in a higher amount of usable <abbr "
-"title=\"Random Access Memory\">RAM</abbr>. Be aware that swapping data is a "
-"very slow process as the swap-device cannot be accessed with the high "
-"datarates of the <abbr title=\"Random Access Memory\">RAM</abbr>."
+"swapped to a swap-device resulting in a higher amount of usable <abbr title="
+"\"Random Access Memory\">RAM</abbr>. Be aware that swapping data is a very "
+"slow process as the swap-device cannot be accessed with the high datarates "
+"of the <abbr title=\"Random Access Memory\">RAM</abbr>."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1265
@@ -5049,12 +5112,7 @@ msgid ""
 "order to avoid broadcast loops that can bring the entire LAN to a standstill."
 msgstr ""
 
-#: modules/luci-base/ucode/template/csrftoken.ut:13
-msgid ""
-"In order to prevent unauthorized access to the system, your request has been "
-"blocked. Click \"Continue »\" below to return to the previous page."
-msgstr ""
-
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:140
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:148
 msgid "In seconds"
 msgstr ""
@@ -5111,6 +5169,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:28
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:51
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:187
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:150
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:158
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:348
 msgid "Info"
@@ -5135,26 +5194,32 @@ msgctxt "nft meta iifname"
 msgid "Ingress device name"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:154
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:162
 msgid "Initial EPS Bearer"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:163
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:171
 msgid "Initial EPS Bearer APN"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:167
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:175
 msgid "Initial EPS Bearer Authentication Type"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:194
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:202
 msgid "Initial EPS Bearer IP Type"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:185
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:193
 msgid "Initial EPS Bearer Password"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:177
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:185
 msgid "Initial EPS Bearer Username"
 msgstr ""
@@ -5336,6 +5401,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:101
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:68
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:63
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:71
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:97
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:73
@@ -5379,6 +5445,7 @@ msgstr ""
 msgid "Invalid argument"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:12
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:11
 msgid ""
 "Invalid bearer list. Possibly too many bearers created. This protocol "
@@ -5422,6 +5489,7 @@ msgid "Invalid server URL"
 msgstr ""
 
 #: modules/luci-base/ucode/template/sysauth.ut:12
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/sysauth.ut:56
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:32
 msgid "Invalid username and/or password! Please try again."
 msgstr ""
@@ -5456,6 +5524,7 @@ msgid ""
 "without requiring firewall or port configuration."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:365
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:78
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:98
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:63
@@ -5508,7 +5577,6 @@ msgid "Kernel Version"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1600
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:244
 msgid "Key"
 msgstr ""
 
@@ -5605,6 +5673,10 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:23
 msgid "LPR"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:40
+msgid "LTE"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:268
@@ -5721,10 +5793,6 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:680
 msgid "Legacy rules detected"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4896
-msgid "Legend:"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:670
@@ -6033,6 +6101,7 @@ msgid "Log facility"
 msgstr ""
 
 #: modules/luci-base/ucode/template/sysauth.ut:38
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/sysauth.ut:60
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:36
 msgid "Log in"
 msgstr ""
@@ -6050,6 +6119,7 @@ msgid "Log out"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:185
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:147
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:155
 msgid "Log output level"
 msgstr ""
@@ -6090,6 +6160,7 @@ msgstr ""
 msgid "Lowest leased address as offset from the network address."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/footer.ut:11
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/footer.ut:12
 msgid "Lua compatibility mode active"
 msgstr ""
@@ -6469,6 +6540,10 @@ msgstr ""
 msgid "Mobile Network Code"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:265
+msgid "Mobile Network Info"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1671
 msgid "Mobility Domain"
 msgstr ""
@@ -6486,14 +6561,21 @@ msgid "Mode"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:56
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:130
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:83
 msgid "Model"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:260
+msgid "Modem"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:293
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:81
 msgid "Modem Info"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:10
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:9
 msgid ""
 "Modem connection in progress. Please wait. This process will timeout after 2 "
@@ -6506,6 +6588,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:73
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:54
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:254
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:51
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:65
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js:73
@@ -6522,6 +6605,10 @@ msgstr ""
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:119
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:113
 msgid "Modem init timeout"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/root/usr/share/luci/menu.d/luci-proto-mm_dualsim.json:3
+msgid "Modem status"
 msgstr ""
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:21
@@ -6696,7 +6783,6 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:95
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:68
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:242
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:36
 msgid "Name"
 msgstr ""
@@ -6729,6 +6815,12 @@ msgstr ""
 msgid "Names not in {etc_hosts} are answered {not_found}."
 msgstr ""
 
+#: themes/luci-theme-aurora/.dev/src/resource/menu-aurora.js:56
+#: themes/luci-theme-aurora/htdocs/luci-static/resources/menu-aurora.js:1
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:209
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:264
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:278
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:280
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:38
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:41
 msgid "Navigation"
@@ -6757,6 +6849,10 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:54
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:235
 msgid "Network"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:296
+msgid "Network Capabilities"
 msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:104
@@ -6868,6 +6964,9 @@ msgid "Next »"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:4756
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:265
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:135
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:136
 msgid "No"
 msgstr ""
 
@@ -6899,10 +6998,12 @@ msgstr ""
 msgid "No WireGuard interfaces configured."
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:17
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:16
 msgid "No allowed mode configuration found."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:356
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:69
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:89
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:64
@@ -6943,10 +7044,6 @@ msgstr ""
 msgid "No entries available"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3304
-msgid "No entries in this directory"
-msgstr ""
-
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:858
 msgid ""
 "No fixed interface listening port defined, peers might not be able to "
@@ -6981,6 +7078,7 @@ msgstr ""
 msgid "No nftables ruleset loaded."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:345
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:58
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:78
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:53
@@ -6996,6 +7094,7 @@ msgstr ""
 msgid "No peers defined yet."
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:16
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:15
 msgid "No preferred mode configuration found."
 msgstr ""
@@ -7032,7 +7131,6 @@ msgstr ""
 msgid "Node info privacy"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:47
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:74
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:179
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:238
@@ -7056,6 +7154,9 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:149
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:175
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:80
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:77
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:106
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:174
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:85
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:114
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:182
@@ -7345,6 +7446,10 @@ msgstr ""
 msgid "Operator Name"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:21
+msgid "Operator name"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2053
 #: modules/luci-base/htdocs/luci-static/resources/form.js:4769
 msgid "Option \"%s\" contains an invalid input value."
@@ -7352,14 +7457,6 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2068
 msgid "Option \"%s\" must not be empty."
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4903
-msgid "Option changed"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4905
-msgid "Option removed"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1547
@@ -7554,6 +7651,7 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:74
 #: protocols/luci-proto-ipip/htdocs/luci-static/resources/protocol/ipip.js:53
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:128
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:136
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:144
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:191
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:57
@@ -7647,6 +7745,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:111
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:88
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:124
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:132
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:107
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:45
@@ -7661,6 +7760,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:109
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:83
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:119
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:127
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:105
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/l2tp.js:43
@@ -7684,6 +7784,7 @@ msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:106
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:73
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:68
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:76
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:102
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:86
@@ -7779,6 +7880,10 @@ msgstr ""
 msgid "Packets per slave"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:277
+msgid "Parameter"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:295
 msgid "Part of network:"
 msgid_plural "Part of networks:"
@@ -7803,6 +7908,7 @@ msgstr ""
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:103
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:58
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:301
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/sysauth.ut:48
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:19
 msgid "Password"
 msgstr ""
@@ -7830,12 +7936,6 @@ msgstr ""
 msgid "Password2"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:285
-msgid ""
-"Paste content of a file, or a URL to a key file, or drag and drop here to "
-"upload a software repository public key…"
-msgstr ""
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:266
 msgid "Paste or drag SSH key file…"
 msgstr ""
@@ -7849,10 +7949,6 @@ msgid ""
 "Paste or drag a WireGuard configuration (commonly <em>wg0.conf</em>) from "
 "another system below to create a matching peer entry allowing that system to "
 "connect to the local WireGuard interface."
-msgstr ""
-
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:281
-msgid "Paste or drag repository public key"
 msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:430
@@ -7989,6 +8085,10 @@ msgstr ""
 msgid "PersistentKeepAlive setting is invalid"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:31
+msgid "Phone number"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js:291
 msgid "Phy Rate:"
 msgstr ""
@@ -8084,6 +8184,7 @@ msgstr ""
 msgid "Prefer UMTS"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:100
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:108
 msgid "Preferred network technology"
 msgstr ""
@@ -8131,8 +8232,9 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:209
 msgid ""
-"Prevents overly broad routes being considered. Setting 16 would consider /"
-"17, /24, /28 or more specific routes yet ignore /16, /8, /0 (default) routes"
+"Prevents overly broad routes being considered. Setting 16 would "
+"consider /17, /24, /28 or more specific routes yet ignore /16, /8, /0 "
+"(default) routes"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:677
@@ -8526,6 +8628,10 @@ msgstr ""
 msgid "Registration State"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:29
+msgid "Registration state"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:102
 msgctxt "nft reject with icmp type"
 msgid "Reject IPv4 packet with <strong>ICMP type %h</strong>"
@@ -8911,10 +9017,6 @@ msgstr ""
 msgid "Reverse sort"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4925
-msgid "Revert"
-msgstr ""
-
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5031
 msgid "Revert changes"
 msgstr ""
@@ -8973,6 +9075,10 @@ msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:121
 msgid "Rewrite to egress device address"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:54
+msgid "Roaming"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1596
@@ -9113,11 +9219,50 @@ msgstr ""
 msgid "SIM %d"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:266
+msgid "SIM 1"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:282
+msgid "SIM 1 Settings"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:267
+msgid "SIM 2"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:283
+msgid "SIM 2 Settings"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:264
+msgid "SIM priority"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:138
+msgid "SIM selected"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:270
+msgid "SIM switch timeout, s"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:274
+msgid "SIM switch tries"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:135
+msgid "SIM1 inserted"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:136
+msgid "SIM2 inserted"
+msgstr ""
+
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:147
 msgid "SIMs"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:48
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:283
 msgid "SNR"
 msgstr ""
@@ -9184,13 +9329,8 @@ msgid "Save"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2131
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4913
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/form.js:618
-msgid "Save error"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:436
@@ -9235,24 +9375,12 @@ msgstr ""
 msgid "Section %s is empty."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4899
-msgid "Section added"
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4901
-msgid "Section removed"
-msgstr ""
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:332
 msgid "See \"mount\" manpage for details"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:852
 msgid "See %s and %s."
-msgstr ""
-
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3286
-msgid "Select"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:285
@@ -9323,8 +9451,17 @@ msgstr ""
 msgid "Service Name"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:295
+msgid "Service Status"
+msgstr ""
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:88
 msgid "Service Type"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:245
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:257
+msgid "Service unavailable. May be its was stopped."
 msgstr ""
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:36
@@ -9403,10 +9540,12 @@ msgstr ""
 msgid "Setting operation mode failed"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:81
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:89
 msgid "Setting the allowed network technology."
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:101
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:109
 msgid "Setting the preferred network technology."
 msgstr ""
@@ -9447,7 +9586,6 @@ msgstr ""
 msgid "Shutdown this interface"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:46
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:53
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:178
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1967
@@ -9468,8 +9606,17 @@ msgstr ""
 msgid "Signal Quality"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:140
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:148
 msgid "Signal Refresh Rate"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:294
+msgid "Signal Status"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:19
+msgid "Signal quality"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js:263
@@ -9742,8 +9889,8 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:84
 msgid ""
 "Specify a Traffic Class. Can be <code>inherit</code> (the outer header "
-"inherits the value of the inner header) or an hexadecimal value "
-"<code>00..FF</code> (optional)."
+"inherits the value of the inner header) or an hexadecimal value <code>00.."
+"FF</code> (optional)."
 msgstr ""
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:64
@@ -9821,6 +9968,11 @@ msgstr ""
 msgid "Startup"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:278
+msgid "Startup delay, s"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:25
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:90
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:139
 msgid "State"
@@ -9908,6 +10060,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1647
 msgid "Suggested: 128"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:17
+msgid "Supported capabilities"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:668
@@ -10022,11 +10178,16 @@ msgstr ""
 msgid "System log buffer size"
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:355
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:68
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:88
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:63
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:80
 msgid "System running in recovery (initramfs) mode."
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:229
+msgid "TCP (port-opening) monitoring"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1626
@@ -10046,6 +10207,10 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:57
 msgctxt "nft tcp flags"
 msgid "TCP flags"
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:232
+msgid "TCP hosts"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:53
@@ -10470,8 +10635,8 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:139
 msgid ""
-"The network ports on this device can be combined to several <abbr "
-"title=\"Virtual Local Area Network\">VLAN</abbr>s in which computers can "
+"The network ports on this device can be combined to several <abbr title="
+"\"Virtual Local Area Network\">VLAN</abbr>s in which computers can "
 "communicate directly with each other. <abbr title=\"Virtual Local Area "
 "Network\">VLAN</abbr>s are often used to separate different network "
 "segments. Often there is by default one Uplink port for a connection to the "
@@ -10614,6 +10779,7 @@ msgstr ""
 msgid "There are no changes to apply"
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:346
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:59
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:79
 #: themes/luci-theme-openwrt-2020/ucode/template/themes/openwrt2020/header.ut:54
@@ -10621,6 +10787,14 @@ msgstr ""
 msgid ""
 "There is no password set on this router. Please configure a root password to "
 "protect the web interface."
+msgstr ""
+
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:148
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:186
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:202
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:218
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:241
+msgid "There is no status information."
 msgstr ""
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6rd.js:49
@@ -10707,10 +10881,6 @@ msgstr ""
 msgid ""
 "This key does not appear to be in PEM format, which is required in an apk "
 "environment."
-msgstr ""
-
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:267
-msgid "This key is protected and cannot be deleted."
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:65
@@ -10814,8 +10984,8 @@ msgstr ""
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:425
 msgid ""
 "To configure fully the local WireGuard interface from an existing (e.g. "
-"provider supplied) configuration file, use the <strong><a class=\"full-"
-"import\" href=\"#\">configuration import</a></strong> instead."
+"provider supplied) configuration file, use the <strong><a class=\"full-import"
+"\" href=\"#\">configuration import</a></strong> instead."
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:402
@@ -10823,6 +10993,10 @@ msgid ""
 "To restore configuration files, you can upload a previously generated backup "
 "archive here. To reset the firmware to its initial state, click \"Perform "
 "reset\" (only possible with squashfs images)."
+msgstr ""
+
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:323
+msgid "Toggle floating buttons"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1681
@@ -11089,10 +11263,12 @@ msgstr ""
 msgid "Unable to save contents: %s"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:15
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:14
 msgid "Unable to set allowed mode list."
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:18
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:17
 msgid "Unable to set preferred mode."
 msgstr ""
@@ -11144,6 +11320,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:13
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:12
 msgid "Unknown and unsupported connection method."
 msgstr ""
@@ -11453,6 +11630,7 @@ msgstr ""
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:144
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:101
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:56
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/sysauth.ut:41
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/sysauth.ut:13
 msgid "Username"
 msgstr ""
@@ -11569,6 +11747,10 @@ msgid ""
 "the \"ca-bundle\" package"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:278
+msgid "Value"
+msgstr ""
+
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:73
 msgid "Vendor"
 msgstr ""
@@ -11674,6 +11856,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:26
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/syslog.js:49
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:189
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:149
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:157
 msgid "Warning"
 msgstr ""
@@ -11854,6 +12037,8 @@ msgid "Write system log to file"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:4756
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:135
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/view/mm_dualsim/status.js:136
 msgid "Yes"
 msgstr ""
 
@@ -11887,6 +12072,7 @@ msgstr ""
 msgid "You may add multiple unique Relay To on the same Listen addr."
 msgstr ""
 
+#: themes/luci-theme-aurora/ucode/template/themes/aurora/header.ut:366
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:79
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:99
 #: themes/luci-theme-openwrt/ucode/template/themes/openwrt.org/header.ut:64
@@ -11927,6 +12113,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:795
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:161
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:178
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:97
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:105
 msgid "any"
 msgstr ""
@@ -11983,19 +12170,15 @@ msgstr ""
 msgid "create:"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:157
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:165
 msgid ""
 "custom: Use different options when establishing a connection (these options "
 "are prefixed with %s)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:44
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:46
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:47
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:48
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:73
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:74
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:77
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:177
@@ -12031,6 +12214,7 @@ msgctxt "nft unit"
 msgid "day"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:156
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:164
 msgid "default: Use the configuration options above (APN, IP Type, ...)."
 msgstr ""
@@ -12242,6 +12426,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3810
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:851
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:833
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:158
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:166
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:39
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:56
@@ -12249,6 +12434,7 @@ msgstr ""
 msgid "none"
 msgstr ""
 
+#: protocols/luci-proto-mm_dualsim/htdocs/luci-static/resources/protocol/mm_dualsim.js:155
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:163
 msgid "none: Do not set an initial EPS bearer (default behaviour)"
 msgstr ""
