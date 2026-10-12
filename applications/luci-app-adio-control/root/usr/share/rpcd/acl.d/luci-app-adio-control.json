@@ -1,0 +1,11 @@
+{
+	"luci-app-adio-control": {
+		"description": "Grant UCI access for luci-app-adio-control",
+		"read": {
+			"uci": [ "adio-control" ]
+		},
+		"write": {
+			"uci": [ "adio-control" ]
+		}
+	}
+}
